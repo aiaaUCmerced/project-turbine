@@ -14,12 +14,14 @@ pinMode(buttonpin,INPUT);//define switch as a output port
 }
 void  loop()
 
-{ val=digitalRead(buttonpin);//read the value of the digital interface 3 assigned to val 
-if(val==HIGH)//when the switch sensor have signal, LED blink
+{ val=digitalRead(buttonpin);//read the value of the digital interface 3 assigned to val ||| AIAA NOTE: THIS DOES NOT DO WHAT THE DOCUMENTATION SAYS IT DOES
+
+if(val==HIGH)//when the switch sensor have signal, LED blinks ?????
 {
 digitalWrite(Led,0);
 }
-else
+
+else // Something isnt quite right here
 {
 digitalWrite(Led,HIGH);
 }
