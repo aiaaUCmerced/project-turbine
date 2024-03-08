@@ -8,6 +8,8 @@ int redpin = 11; //select the pin for the red LED
 int greenpin =10;// select the pin for the green LED
 int bluepin =9; // select the pin for the  blue LED
 
+
+// You can modify color values as needed
 int val;
 void setup() { pinMode(redpin, OUTPUT); pinMode(bluepin, OUTPUT); pinMode(greenpin, OUTPUT); Serial.begin(9600);
 }
