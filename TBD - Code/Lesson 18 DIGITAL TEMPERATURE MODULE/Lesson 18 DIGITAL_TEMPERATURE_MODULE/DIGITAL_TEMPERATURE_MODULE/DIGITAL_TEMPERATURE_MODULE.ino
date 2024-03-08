@@ -1,3 +1,6 @@
+/// VERY HIGH potential use
+
+
 byte NTCPin = A0;
 #define SERIESRESISTOR 10000
 #define NOMINAL_RESISTANCE 10000
