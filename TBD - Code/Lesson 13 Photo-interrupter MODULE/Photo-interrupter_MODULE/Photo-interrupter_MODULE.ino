@@ -1,9 +1,14 @@
+// Validated
+
+
 /******************************************
  *Website: www.elegoo.com
  * 
  *Time:2017.12.12
  *
  ******************************************/
+
+
 int Led=13;      //define the led's port
 int buttonpin=3; //define the port of light blocking module
 int val;//define digital variable val
