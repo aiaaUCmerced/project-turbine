@@ -4,6 +4,8 @@
  *Time:2017.12.12
  *
  ******************************************/
+// NOTE: 40 Counts per turn, starts 1 and increments by 2
+
 //Define the pin connection
 int CLK = 2;//CLK->D2
 int DT = 3;//DT->D3
