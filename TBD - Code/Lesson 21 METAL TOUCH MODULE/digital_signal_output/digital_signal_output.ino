@@ -11,6 +11,7 @@ void  setup()
 {
 pinMode(Led,OUTPUT);//define LED as a output port
 pinMode(buttonpin,INPUT);//define switch as a output port
+Serial.begin(9600);
 }
 void  loop()
 
