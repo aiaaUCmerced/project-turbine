@@ -7,6 +7,9 @@
 int Led=13;       //define LED port
 int buttonpin=3; //define switch port
 ;int  val;      //define digital variable val
+
+// NOTE: DOUBLE CHECK POTENTIOMETER LEVEL
+
 void  setup()
 {
 pinMode(Led,OUTPUT);//define LED as a output port
@@ -21,7 +24,7 @@ digitalWrite(Led,HIGH);
 }
 else
 {
-digitalWrite(Led,LOW);
+digitalWrite(Led,0);
 }
 }
 
