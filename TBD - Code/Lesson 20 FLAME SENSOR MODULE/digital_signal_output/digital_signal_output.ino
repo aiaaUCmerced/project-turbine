@@ -2,6 +2,8 @@
  *Website: www.elegoo.com
  * 
  *Time:2017.12.12
+
+ NOTE: NEEDS SUNLIGHT OR EQUIVALENT
  *
  ******************************************/
 int Led=13;       //define LED port
@@ -11,6 +13,7 @@ void  setup()
 {
 pinMode(Led,OUTPUT);//define LED as a output port
 pinMode(buttonpin,INPUT);//define switch as a output port
+Serial.begin(9600);
 }
 void  loop()
 
@@ -21,7 +24,7 @@ digitalWrite(Led,HIGH);
 }
 else
 {
-digitalWrite(Led,LOW);
+digitalWrite(Led,0);
 }
 }
 
