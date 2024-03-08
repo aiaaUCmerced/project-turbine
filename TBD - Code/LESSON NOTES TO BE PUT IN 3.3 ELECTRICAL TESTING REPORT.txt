@@ -1,0 +1,52 @@
+3/2/2024
+
+Arduino Lesson Notes so Far
+
+Lesson 0:IDE Installation
+
+Install Latest Version from Arduino Website
+
+
+Download nessecary libraries from Box [ 3.0 Systems > 3.3 Systems Test > Elegoo 37 Sensory Kit Tutorial ]
+
+------
+NOTE: Dallas Humidity Temprature (DHT) Library is out of date and you will need to install the following libraries:
+
+DHT Sensors Non-Blocking [1.0.4 as of writing this document may update]
+DHT KXN
+DHT Sensor Library
+------------
+
+NOTE #2: WHEN SETTING UP ARDUINO ONCE CONNECTED: MAKE SURE THAT THE BAUD RATE OF THE SERIAL MONITOR MATCHES BAUD RATE OF PROGRAM (
+E.I. Serial.begin(9600); ---->  SCREENSHOT OF BAUD RATE HERE	  )
+
+
+
+
+Lesson 1:Library Setup
+
+Noted that documentation does not have current libraries
+
+
+
+Lesson 2: Dallas Humidity and Temprature Sensor (DHT11)
+
+
+
+
+
+
+
+
+
+
+Lesson 7: Sensor Switches
+
+Notes: Had to adjust code for visible results with SHOCK SWITCH, seems that "HIGH" output occurs when sensor is not triggered.
+Seems to also be true for TILT SWITCH.
+
+
+
+Lesson 8L IR Reciever and Transmitter
+
+Make sure the Arduino IDE has IRremote Version 2.6.0, as any newer versions will have complications.
