@@ -1,3 +1,11 @@
+//
+// NOTE: THERE IS NO LESSON PLAN FOR THIS 
+//
+// Just plug in the real-time clock(rtc) and run
+//
+
+
+
 //www.elegoo.com
 //2018.10.24
 #include <Wire.h>
