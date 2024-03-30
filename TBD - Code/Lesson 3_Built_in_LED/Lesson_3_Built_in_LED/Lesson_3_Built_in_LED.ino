@@ -14,9 +14,9 @@ void  setup() {
 void  loop(){ 
   val = digitalRead(Shock); //read the value of the digital interface 3 assigned to val
   digital Write(led, HIGH);
-  delay(500);
+  delay(1000);
   digital Write(led, LOW);
-  delay (500);
+  delay (1000);
 }
 // turn the LED on (HIGH is the voltage level)
 // wait for a second
