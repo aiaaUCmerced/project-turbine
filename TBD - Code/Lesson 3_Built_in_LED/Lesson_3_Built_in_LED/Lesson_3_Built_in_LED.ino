@@ -4,18 +4,21 @@
  *Time:2017.12.12
  *
  ******************************************/
-int Led = 13; //define LED port
+
+
+
+int led = LED_BUILTIN; //define LED port
 
 void  setup() {
-
+  
   // initialize the digital pin as an output.
-  pin Mode (led, OUTPUT);
+  pinMode (led, OUTPUT);
 }
 void  loop(){ 
-  val = digitalRead(Shock); //read the value of the digital interface 3 assigned to val
-  digital Write(led, HIGH);
+  
+  digitalWrite(led, HIGH);
   delay(1000);
-  digital Write(led, LOW);
+  digitalWrite(led, LOW);
   delay (1000);
 }
 // turn the LED on (HIGH is the voltage level)
