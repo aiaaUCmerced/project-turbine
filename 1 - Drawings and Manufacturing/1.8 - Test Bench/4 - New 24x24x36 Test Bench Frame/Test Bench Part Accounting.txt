@@ -1,0 +1,79 @@
+Part5 - Bottom Frame Al Sheet (x1)
+	Not Finished, needs:
+	1. taps for rails
+	2. taps for L brackets
+
+Part6 - Side Frame Al Sheet (x2)
+	Not Finished, needs:
+	1. taps for corner brackets
+
+Part7 - Top Frame Al Sheet (x1)
+	Not Finished, needs:
+	1. taps for corner brackets
+
+HGR15 rail - Linear Rails (x2)
+	Check that the dimensions and spacing is correct
+
+Part8 - Window Frame Al Sheet (x3)
+	Not Finished, needs:
+	1. taps for mounting brackets
+	2. needs all the prescribed brackets (low prio)
+
+Part9 - Window Polycarbonate Sheet (x3)
+	Seems finished
+
+Stainless Steel Grate - ~ (x4)
+	Seems finished
+
+Part10 - Front Bottom Frame Al Sheet (x2)
+	Not Finished, needs:
+	1. taps for mounting brackets when adding top/bottom L brackets
+
+Part11 - Front Top Frame Al Sheet (x2)
+	Might be finished? Might need taps
+
+Part12 - L Bracket Al Sheet (x6, probably x10)
+	Not Finished, needs:
+	1. taps for mounting brackets only on the one side
+
+Part13 - Front Middle Frame Al Sheet (x2)
+	Not Finished, needs:
+	1. taps for mounting brackets when adding top/bottom L brackets
+
+Two turbine HG15 carriage - ~ (x1)
+	Needs taps for mounting to rails
+
+Part14 - Rail Stopper (x1)
+	This is dubiously necessary, and requires detail regardless
+
+Part15 - Sedan Rail Holder (x4)
+	Might be finished? Might need taps
+
+Part16 - Window Sealant Rubber Block (x3)
+	Finished
+
+Part17 - Access Panel Rubber Block (x4)
+	Finished
+
+Part18 - Access Panel Al Sheet (x4)
+	Finished
+
+Needed parts: 4 L brackets mounting top and bottom plates to front and back
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
