@@ -1,0 +1,145 @@
+I am making an RC plan with two propellers, one on each wing. I want some feedback on structural considerations for the plane. First, the total mass of the plane will be 1200 grams, and we need about 1000 grams of thrust to keep the plane flying. The wingspan of the plane is 60". I was considering using 6" propellers on each wing. Roughly how far away from the body of the plane should I put the propellers? Second, I will be using a tripod landing gear configuration (two behind the center of mass and one in front). What are some rules of thumb for how to position these elements?
+
+Here's some feedback on the structural considerations for your RC plane, addressing your questions about propeller placement and landing gear configuration:
+
+## RC Plane Structural Considerations: Propeller Placement & Landing Gear
+
+### 1. Propeller Placement
+
+With two 6" propellers, one on each wing, the primary structural consideration is managing the thrust line relative to the center of gravity (CG) and ensuring adequate clearance.
+
+* **Thrust Line and Center of Gravity (CG):** Ideally, the thrust line of the propellers should be aligned with or slightly above the plane's CG. If the thrust line is too far above or below the CG, it can create pitching moments, making the plane difficult to control. Since you have two propellers, the combined thrust line is what matters.
+* **Wing Structure and Bending Moments:** Placing the propellers too far out on the wings will create significant bending moments at the wing roots, especially during high-thrust maneuvers. This will necessitate a stronger (and thus heavier) wing spar.
+* **Propeller Clearance:** You need to ensure the propellers have sufficient clearance from the fuselage and the ground during takeoff and landing. A 6" propeller has a 3" radius.
+
+Given these factors, here's a rough guideline for how far away from the body of the plane you should put the propellers:
+
+* **Minimum Clearance from Fuselage:** Allow at least 1-2 inches of clearance between the propeller tip and the fuselage side. This prevents accidental contact and allows for some air movement around the fuselage.
+* **Balancing Thrust and Bending Moments:** A good starting point for a 60" wingspan would be to place the propellers such that their centers are roughly **10-15 inches from the centerline of the fuselage.** This places them far enough out to provide good lateral stability and leverage for differential thrust (if you plan to use it for steering), but not so far as to overly stress the wing structure.
+    * **Calculation Example:** If you place the propeller centers 12 inches from the centerline, the propeller tips (3" radius) would be 9 inches from the centerline. This provides good clearance from the fuselage. The total span taken up by the propellers would be 24 inches, leaving plenty of wing for aerodynamic lift.
+* **Considerations for Differential Thrust:** If you plan to use differential thrust for yaw control (common with twin-engine planes), placing the propellers further out will provide greater leverage for turning, but as mentioned, increases wing bending moments.
+
+**Recommendation:** Start with the propeller centers roughly **12 inches (30 cm) from the centerline of the fuselage.** This provides a good balance of structural integrity, propeller clearance, and potential for effective differential thrust. You will need to design your wing spar to handle the loads from the motors and propellers at this location.
+
+### 2. Tripod Landing Gear Positioning
+
+The tripod landing gear configuration (two main gears behind the CG, one nose gear in front) is very common and stable. Here are some rules of thumb for positioning these elements:
+
+* **Main Landing Gear (Two Behind CG):**
+    * **Longitudinal Position (Fore-Aft):** The main landing gear should be placed **just behind the plane's center of gravity (CG)**. A common rule of thumb is to place the main gear axle **5% to 15% of the wing chord length behind the CG**. This slight aft placement ensures that the plane naturally wants to rotate for takeoff and provides stability during the ground roll. If they are too far forward, the plane will be difficult to rotate; if too far aft, it can nose over easily.
+    * **Lateral Position (Spanwise):** The main landing gear should be spread wide enough to provide good lateral stability and prevent tipping during ground maneuvers and crosswind landings. A good rule of thumb is that the **distance between the two main wheels should be at least 25% to 30% of the wingspan**. For your 60" wingspan, this means the main wheels should be roughly 15" to 18" apart (measured from the center of the tires).
+* **Nose Gear (One In Front of CG):**
+    * **Longitudinal Position (Fore-Aft):** The nose gear should be placed **far enough in front of the CG to provide a stable tripod base and prevent nose-overs during braking or rough landings.** A good starting point is to place the nose gear **10% to 20% of the total fuselage length in front of the CG**.
+    * **Steerable vs. Fixed:** Consider making the nose gear steerable for better ground control.
+* **Overall Stance:**
+    * **Wheel Base (Distance between front and rear axles):** Aim for a wheelbase that is long enough to prevent nose-overs but not so long that it makes the plane difficult to turn on the ground. A good general guideline is that the wheelbase should be **roughly 30% to 40% of the wingspan**, depending on the fuselage length.
+    * **Gear Leg Angle:** The landing gear legs should generally angle slightly forward when viewed from the side. This helps absorb landing forces more effectively and prevents the gear from collapsing backward.
+* **Ground Clearance:** Ensure adequate ground clearance for the propellers and any other vulnerable parts of the fuselage, especially when the plane is resting on its landing gear.
+
+**Key Takeaways for Landing Gear:**
+
+* **CG is King:** All landing gear placement revolves around the plane's center of gravity. You need to accurately determine your plane's CG once all components are installed.
+* **Balance Stability and Maneuverability:** The recommended ranges provide a good balance. You might need to fine-tune based on your specific plane's design and expected performance.
+* **Strength:** The landing gear must be robust enough to handle the full weight of the plane and the stresses of landings, which can be several times the plane's static weight.
+
+By carefully considering these structural aspects, you'll be well on your way to designing a stable and successful RC plane. Good luck with your build!
+
+---
+
+Excellent! I am implementing the landing gear and wing struts in a 3D printed assembly. Right now, given my print bed dimensions, I have the segments of this piece split up. From the perspective of the front of the plane, I have:
+
+1. The segment that adheres to the fuselage and has 1/2 of the landing gear leg (down and away from the fuselage).
+
+2. The segment that attaches to the wheel, including the bottom halves of the landing gear leg and wing strut (up and out toward the wing)
+
+3. The segment that has the propeller housing and adhesion plate to the wing, including the top half of the wing strut.
+
+This relies on my ability to combine the structural elements of the landing gear leg or the wing strut, despite them being parts of different prints. I fear that simply using hot glue may not be sufficient if I don't design the parts correctly. What do you recommend?
+
+That's a common challenge with 3D printing larger RC plane components! Splitting the parts to fit your print bed is a smart approach, but you're right to be concerned about the strength of the joints. Hot glue will definitely **not** be sufficient for structural elements like landing gear legs and wing struts, especially with a 1200g plane. These joints will experience significant bending, shear, and compression forces.
+
+Here's what I recommend for designing your 3D printed segments to ensure strong, reliable joints for the landing gear legs and wing struts:
+
+## Designing Strong 3D Printed Joints for RC Plane Structures
+
+The key is to create mechanical interlocking features between the printed segments, then reinforce them with strong adhesives and potentially additional fasteners or sleeves.
+
+### 1. Mechanical Interlocking Features (Must-Haves)
+
+These are critical for transferring loads across the joint and preventing relative movement.
+
+* **Dovetail Joints:** Excellent for preventing separation and resisting twisting. You can design male and female dovetails that slide together. They provide a strong mechanical lock.
+* **Finger Joints (or Box Joints):** These work well for flat or slightly curved surfaces. Fingers from one piece interlock with slots in the other. The more fingers, the stronger the joint.
+* **Tongue and Groove Joints:** A simpler version where a tongue on one piece fits into a groove on the other. Good for alignment and resisting shear, but need good adhesive to prevent separation.
+* **Lap Joints with Pin/Screw Holes:** One piece overlaps the other, and you design holes for pins (e.g., carbon fiber rod, metal dowel) or screws to pass through both pieces, locking them together. This is very robust.
+* **Recessed Pockets/Tenons:** Design a male "tenon" on one part that fits snugly into a recessed "mortise" on the other. This provides excellent alignment and resists forces along the axis of the joint.
+
+**Design Considerations for Interlocking Features:**
+
+* **Tolerance:** Print a few test pieces to dial in your printer's tolerances. Joints should be a snug fit – you might need to tap them together gently, but not force them so much they crack.
+* **Surface Area:** Maximize the surface area of the interlocking features for better adhesion.
+* **Printing Orientation:** Print the interlocking features in an orientation that maximizes their strength (e.g., not perpendicular to layer lines if possible, as layer adhesion is often the weakest link).
+
+### 2. Reinforcement with Strong Adhesives
+
+Once you have mechanical interlocking, adhesives will fill any small gaps and bond the surfaces together.
+
+* **CA (Cyanoacrylate) Glue (Super Glue):**
+    * **Pros:** Fast-drying, strong, good for small gaps.
+    * **Cons:** Can be brittle, fumes are unpleasant.
+    * **Use:** Best for parts that fit very tightly together. Use thin CA for wicking into tight joints, and medium CA for slightly larger gaps. You can activate it with CA accelerator for instant bonds.
+* **Epoxy (5-minute or 30-minute):**
+    * **Pros:** Very strong, fills gaps well, less brittle than CA, good chemical resistance.
+    * **Cons:** Slower curing, messier, requires mixing.
+    * **Use:** Excellent for high-stress joints. 30-minute epoxy gives you more working time for alignment. Apply generously to both surfaces before assembly.
+* **Specialized 3D Printing Glues:** Some companies make glues specifically formulated for 3D printed plastics (e.g., Polymaker PolyZap for PLA/PETG, or glues for ABS/ASA). Research options for your specific filament.
+
+**Adhesive Application Tips:**
+
+* **Roughen Surfaces:** Lightly sand or score the surfaces to be joined. This gives the adhesive more to grip onto.
+* **Cleanliness:** Degrease and clean the surfaces thoroughly (e.g., with isopropyl alcohol) before applying adhesive. Any grease or dust will weaken the bond.
+* **Clamp or Jig:** Hold the parts firmly in place while the adhesive cures.
+
+### 3. Additional Reinforcement (Highly Recommended for Landing Gear/Struts)
+
+For critical load-bearing components like landing gear, consider these extra measures:
+
+* **Internal Sleeves/Dowels (Carbon Fiber, Wood, or Metal Rods):**
+    * **Design:** Integrate holes into your 3D printed parts that perfectly accommodate a structural rod (e.g., 2mm or 3mm carbon fiber rod, hardwood dowel, or even a steel wire/rod).
+    * **Placement:** The rod should span across the joint, extending into both segments.
+    * **Assembly:** Insert the rod into one segment, apply epoxy or CA glue, then slide the second segment onto the rod.
+    * **Benefits:** This creates a continuous load path through the joint, significantly increasing bending and shear strength. This is probably the **most effective** way to strengthen these types of joints.
+* **External Splints/Doublers:**
+    * **Design:** Print thin, reinforcing plates that can be glued over the joint on the outside.
+    * **Material:** You could even use thin sheets of carbon fiber, plywood, or fiberglass cloth laminated with epoxy over the joint.
+    * **Benefits:** Adds significant surface area for adhesion and distributes stress.
+* **Bolts/Screws (for accessible joints):**
+    * **Design:** Incorporate through-holes for small bolts and nuts or self-tapping screws.
+    * **Use:** If you have access to the joint after assembly, small screws can provide a strong mechanical lock in combination with adhesive.
+    * **Considerations:** Adds weight, and you need to ensure the plastic around the holes is thick enough to prevent cracking.
+
+### Specific Considerations for Your Design:
+
+* **Landing Gear Leg (Segment 1 & 2):** This will take the most abuse.
+    * **Recommendation:** Use a combination of a **strong mechanical interlocking joint (like a lap joint with multiple pin holes, or a robust tongue/groove)** combined with **epoxy**. Critically, design a **through-hole for a carbon fiber rod or metal dowel** that spans the joint. This will be the primary load-bearing element.
+    * **Orientation:** Print the leg segments so that the layer lines are *not* perpendicular to the primary bending forces. If possible, print them so the force runs along the layers rather than trying to split them.
+* **Wing Strut (Segment 2 & 3):** This will primarily experience tension and compression forces, but also some bending.
+    * **Recommendation:** A **dovetail joint or a well-designed finger joint** would work well, again combined with **epoxy**. Incorporating a small carbon fiber rod through the joint would add excellent rigidity, especially if the strut is slender.
+
+**Before Printing Everything:**
+
+* **Print Test Joints:** Always print small sections of your proposed joint designs first. Test their fit and strength with your chosen adhesive and reinforcement method before committing to printing the full parts.
+* **FEA (Finite Element Analysis) - Advanced:** If you have access to CAD software with FEA capabilities (e.g., Fusion 360, SolidWorks), you could simulate the stress on your joints to identify potential failure points. This is an advanced step but can be very insightful.
+
+By implementing robust mechanical interlocking, strong adhesives, and internal reinforcements, you can ensure your 3D printed structural components are more than up to the task of flying your RC plane.
+
+---
+
+Lessons learned:
+1/8" x 1/2" is a little wobbly, 1/4" x 1/2" is pretty stiff. 
+3/8" - 0.5mm was good for a little bit of slip on the axle, but should be elevated a teeny bit from the printbed due to being a little flat
+Absolutely zero gap between interlocking parts was bad because the PLA expanded
+The 1mm depth is absolutely unacceptable for the leg parts.
+
+revisions: made the interlocking parts 1" deep with 0.25mm bi-directional extruded cut
+made the axle connector 1/4" instead of 3/8". made the wing attachment point 1/16" thick and 1" wide

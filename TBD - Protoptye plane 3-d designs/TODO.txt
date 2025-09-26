@@ -1,0 +1,8 @@
+moved wing leading edge to 2in behind nose
+	rationale: reduces torque from monoprop + other things (TBD)
+
+revised brackets to have top and bottom support separated by 1/4in. increased internal width from 4in to 4.25 because of shrinkage
+
+wing depth increased, wing chord to 5.25 + aileron to 1.5 -> total width to 13.25in
+
+landing gear configuration changed to tail dragging, with recessed wheel in the back (sticking out of the top) and front landing gear mounted directly to the nose (somehow)
